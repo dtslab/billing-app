@@ -9,7 +9,7 @@ mixin txPreview(desc, amount, category, date, status)
                     h3.tx-title= desc
                     time.tx-date(datetime="2022-04-02")= date
                 section.tx-details.--amount
-                    .tx-amount R$ #{amount}
+                    .tx-amount $ #{amount}
                     .tx-status(class="--"+status)= status
 
         section.tx-actions
